@@ -53,12 +53,12 @@
     -->
     <filter id="tone" x="0%" y="0%" width="100%" height="100%">
       <!-- Saturation: 1 = normal, 0 = grayscale, >1 = more vivid -->
-      <feColorMatrix type="saturate" values="1.10"/>
+      <feColorMatrix type="saturate" values="0.80"/>
       <!-- Brightness: diagonal R/G/B (1.0 = normal) -->
       <feColorMatrix type="matrix" values="
-  1.00 0 0 0 0
-  0 1.00 0 0 0
-  0 0 1.00 0 0
+  1.05 0 0 0 0
+  0 1.05 0 0 0
+  0 0 1.05 0 0
   0 0 0 1 0"/>
     </filter>
 
